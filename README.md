@@ -13,18 +13,23 @@ Node is copy of chain data. This means that you can participate in validating tr
 The genesis file is json structured file which describes among the other the initial settings needed to initialize the blockchain. It is the initial block for ethereum blockchain
 ```
 {
- "config": {
- "chainId": 1907,
- "homesteadBlock": 0,
- "eip155Block": 0,
- "eip158Block": 0
- },
- "difficulty": "10",
- "gasLimit": "2100000",
- "alloc": {},
- "coinbase": "c7c7d647cf3e4f1b072422c0ab5120fe810ee3b2"
+  "config": {
+        "chainId": 0,
+        "homesteadBlock": 0,
+        "eip155Block": 0,
+        "eip158Block": 0
+    },
+  "alloc"      : {},
+  "coinbase"   : "0x0000000000000000000000000000000000000000",
+  "difficulty" : "0x20000",
+  "extraData"  : "",
+  "gasLimit"   : "0x2fefd8",
+  "nonce"      : "0x0000000000000042",
+  "mixhash"    : "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "parentHash" : "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "timestamp"  : "0x00"
 }
 ```
 
-
+# How can you make ethereum network ASIC resisitance?
 
