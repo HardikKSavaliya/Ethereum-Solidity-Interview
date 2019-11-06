@@ -33,3 +33,6 @@ The genesis file is json structured file which describes among the other the ini
 
 # How can you make ethereum network ASIC resisitance?
 
+# what is mist?
+
+# difference between geth/parity?
