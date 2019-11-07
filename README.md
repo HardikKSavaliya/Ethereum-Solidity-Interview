@@ -30,6 +30,11 @@ The genesis file is json structured file which describes among the other the ini
   "timestamp"  : "0x00"
 }
 ```
+# Ethereum node types?
+* Light Clients: Requires no validation, requests the current state from the P2P network to verify current state (fine for processing payments and simple contract calls), but your validation is out-sourced to other fullnodes with the necessary information.
+* Fast Node (Fast Sync/Warp Sync): Will not validate intermediate states during the initial sync, will validate everything else after that, however. This allows older data to be pruned that likely has nothing to do with your transactions
+* Full Node: As described above, validates everything, and will prune old intermediate states from memory, and will keep an archive of future state trie updates.
+* Archive Node (Historical Node): Validates and stores all intermediate states, nothing is pruned, all state transitions for accounts are retrievable. Future state trie updates and full intermediate states are stored.
 
 # How can you make ethereum network ASIC resisitance?
 
