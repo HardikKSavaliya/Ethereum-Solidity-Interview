@@ -41,3 +41,5 @@ The genesis file is json structured file which describes among the other the ini
 # what is mist?
 
 # difference between geth/parity?
+
+# what is dApps?
