@@ -42,4 +42,6 @@ The genesis file is json structured file which describes among the other the ini
 
 # difference between geth/parity?
 
-# what is dApps?
+# what are dApps?
+A decentralized applications called dApps. dApps is a computer application that runs on a distributed computing system. DApps have been mostly popularized by distributed ledger technologies (DLT), namely the Ethereum Blockchain, where DApps are often referred to as smart contracts. some of them are CryptoKitties, gitcoin.co,..
+
