@@ -6,6 +6,9 @@ Ethereum is an open source, public, blockchain-based distributed computing platf
 # What is Smart Contract?
 Smart Contract is an small program that runs on ethereum blockchain.
 
+# In which language ethereum is written?
+solidity is a language of ethereum. it is same like javascript. also vyper is also developing for next option for write smart contracts.
+
 # Describe Ethereum node?
 Node is copy of chain data. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are Geth and Parity. 
 
