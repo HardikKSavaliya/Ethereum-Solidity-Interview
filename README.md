@@ -50,4 +50,7 @@ A decentralized applications called dApps. dApps is a computer application that 
 
 
 # describe about 'pragma'
-The pragma keyword is used to enable certain compiler features or checks. A pragma directive is always local to a source file, so you have to add the pragma to all your files if you want enable it in all of your project. 
+The pragma keyword is used to enable certain compiler features or checks. A pragma directive is always local to a source file, so you have to add the pragma to all your files if you want enable it in all of your project. .
+
+# default size of uint?
+ it is 256 bits. if you wrote uint16 then it will 16 bits and subsequentially.
