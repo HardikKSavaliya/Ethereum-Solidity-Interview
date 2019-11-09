@@ -43,6 +43,9 @@ The genesis file is json structured file which describes among the other the ini
 
 # what is mist?
 
+# what is EVM?
+EVM stands for ethereum virtual machine. EVM is the runtime environment for smart contracts in Ethereum. It is not only sandboxed but actually completely isolated, which means that code running inside the EVM has no access to network, filesystem or other processes. Smart contracts even have limited access to other smart contracts.
+
 # difference between geth/parity?
 
 # what are dApps?
@@ -54,3 +57,6 @@ The pragma keyword is used to enable certain compiler features or checks. A prag
 
 # default size of uint?
  it is 256 bits. if you wrote uint16 then it will 16 bits and subsequentially.
+ 
+# size of ```address``` type?
+it is 160 bits.
