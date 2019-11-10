@@ -110,3 +110,20 @@ contract SampleContract {
   }
 }
 ```
+
+# what is events?
+events are convenience interfaces with the EVM logging facilities.
+```
+pragma solidity >=0.5.0 <0.6.0
+
+contrct SampleContract {
+  event TokenRequested(address token, uint amount); // event
+  
+  function mint() public payable {
+    // to-do..
+    
+    emit tokenMinted(msg.sender,msg.value); // Triggering event
+  
+  }
+}
+```
