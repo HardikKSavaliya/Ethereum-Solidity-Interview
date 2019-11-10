@@ -179,4 +179,6 @@ it has internal. you can omit the internal keyword.
 * storage
 * calldata
 
+# what will be default value of enum?
+first element of enum is default value for that.
 
