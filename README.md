@@ -60,3 +60,53 @@ The pragma keyword is used to enable certain compiler features or checks. A prag
  
 # size of ```address``` type?
 it is 160 bits.
+
+# what is expermental pragma?
+it is used when you want to enable feature that are not enable by default.(e.g. ABIEncoder2, SMTChecker,.)
+
+# SMTChecker use for?
+it is used for additional safety warnings which are obtained by querying an SMT Solver.
+
+# what is state variables?
+state variables are variables whose values are permanently stored in contract storage.
+```
+pragma solidity >=0.5.0 <0.6.0;
+
+contract SampleContract {
+    uint sampleStateVariable; // state variable
+    // ...
+}
+```
+# what is function?
+functions are the executables unit of code within a contract.
+```
+pragma solidity >=0.5.0 <0.6.0
+
+contract SampleContract {
+ function add() public { // function
+  // to-do...
+ }
+}
+```
+# what is function modifiers?
+function modifiers can be used to amend the semantics of functions in a declarative way.
+```
+pragma solidity >=0.5.0 <0.7.0
+
+contract SampleContract {
+
+  address public miner;
+  
+  modifier onlyMiner() {
+    requier(
+      msg.sender== miner
+    );
+    _;
+  }
+  
+  function authorization() public view onlyMiner { // modifier usuage
+    // to-do
+  
+  }
+}
+```
