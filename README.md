@@ -141,7 +141,7 @@ contract SampleContract {
 # how can you define null value in variable?
 In solidity there is no concept of null or undefined.
 
-# how much value types exist in solidity.
+# how nmany value types exist in solidity?
 * boolean(bool)
 it can be true else false
 * integers(int/unit)
@@ -168,15 +168,15 @@ yes, but vice versa is not allowed.
 * send
 * call,delegatecall and staticcall
 
-# difference between send and transfer?
+# Difference between send and transfer?
 send is the low-level counterpart of transfer. if the execution fails due to an whatever reason. the current contract will not stop, but the send will return false.
 
 # Default function is external or internal?
 it has internal. you can omit the internal keyword.
 
-
-
-
-
+# how many data location are exist?
+* memory
+* storage
+* calldata
 
 
