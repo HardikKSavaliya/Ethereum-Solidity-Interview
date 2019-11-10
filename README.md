@@ -127,3 +127,13 @@ contrct SampleContract {
   }
 }
 ```
+
+# what is enum types?
+enums can be used to create custom types with a finite set of 'contants value'.
+```
+pragma solidity >=0.5.0 <0.6.0
+
+contract SampleContract {
+  enum Status { active, inactive, blocked} //enum
+}
+```
