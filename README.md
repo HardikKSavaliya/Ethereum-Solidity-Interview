@@ -174,11 +174,25 @@ send is the low-level counterpart of transfer. if the execution fails due to an 
 # Default function is external or internal?
 it has internal. you can omit the internal keyword.
 
-# how many data location are exist?
+# How many data location are exist?
 * memory
 * storage
 * calldata
 
-# what will be default value of enum?
+# What will be default value of enum?
 first element of enum is default value for that.
+
+# How many types of visibilities for functions and state variables?
+* external
+External functions are part of the contract interface, which means they can be called from other contrancts and via transactions
+* public
+Public functions are part of the contract interface and can be either called internally or via messages. 
+* internal
+functions and state varialbles can only be accessed internally.
+* private
+private functions and state variables are only visible for the contract they are defined in and not even derived contracts.
+
+
+
+
 
