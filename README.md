@@ -193,6 +193,25 @@ functions and state varialbles can only be accessed internally.
 private functions and state variables are only visible for the contract they are defined in and not even derived contracts.
 
 
+# Where can we use view keyword in functions?
+view are used to not modifiy the state of functions. below scenario count to modified state
+* Writing to state variables.
+* Emitting events.
+* Creating other contracts.
+* Using selfdestruct.
+* Sending Ether via calls.
+* Calling any function not marked view or pure.
+* Using low-level calls.
+* Using inline assembly that contains certain opcodes.
+
+# What is pure functions? 
+functions can be declared pure in which case they promise not to read from or modify the state.
+below scenario count to read from state
+* Reading from state variables.
+* Accessing address(this).balance or <address>.balance.
+* Accessing any of the members of block, tx, msg (with the exception of msg.sig and msg.data).
+* Calling any function not marked pure.
+* Using inline assembly that contains certain opcodes.
 
 
 
