@@ -212,6 +212,7 @@ below scenario count to read from state
 * Accessing any of the members of block, tx, msg (with the exception of msg.sig and msg.data).
 * Calling any function not marked pure.
 * Using inline assembly that contains certain opcodes.
+  
 
 
 
