@@ -63,8 +63,15 @@ The pragma keyword is used to enable certain compiler features or checks. A prag
 # size of ```address``` type?
 it is 160 bits.
 
+# Type of accounts in Ethereum?
+* External accounts: controlled by public-private key pairs
+* Contract accounts: which are controlled by the code stored together with the account.
+
 # what is expermental pragma?
 it is used when you want to enable feature that are not enable by default.(e.g. ABIEncoder2, SMTChecker,.)
+
+# What is payload?
+
 
 # Difference between ```mint``` and ```send``` functions?
 The mint function sends an amount of newly created coins to another address while The send function can be used by anyone (who already has some of these coins) to send coins to anyone else.
