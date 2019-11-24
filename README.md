@@ -3,6 +3,9 @@
 # What is an Ethereum?
 Ethereum is an open source, public, blockchain-based distributed computing platform.
 
+# What is solidity?
+Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.
+
 # What is Smart Contract?
 Smart Contract is an small program that runs on ethereum blockchain.
 
@@ -51,7 +54,6 @@ EVM stands for ethereum virtual machine. EVM is the runtime environment for smar
 # what are dApps?
 A decentralized applications called dApps. dApps is a computer application that runs on a distributed computing system. DApps have been mostly popularized by distributed ledger technologies (DLT), namely the Ethereum Blockchain, where DApps are often referred to as smart contracts. some of them are CryptoKitties, gitcoin.co,..
 
-
 # describe about 'pragma'
 The pragma keyword is used to enable certain compiler features or checks. A pragma directive is always local to a source file, so you have to add the pragma to all your files if you want enable it in all of your project. .
 
@@ -63,6 +65,9 @@ it is 160 bits.
 
 # what is expermental pragma?
 it is used when you want to enable feature that are not enable by default.(e.g. ABIEncoder2, SMTChecker,.)
+
+# Difference between ```mint``` and ```send``` functions?
+The mint function sends an amount of newly created coins to another address while The send function can be used by anyone (who already has some of these coins) to send coins to anyone else.
 
 # SMTChecker use for?
 it is used for additional safety warnings which are obtained by querying an SMT Solver.
@@ -119,7 +124,10 @@ pragma solidity >=0.5.0 <0.6.0
 contrct SampleContract {
   event TokenRequested(address token, uint amount); // event
   
-  function mint() public payable {
+  function 
+  
+  
+  () public payable {
     // to-do..
     
     emit tokenMinted(msg.sender,msg.value); // Triggering event
