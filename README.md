@@ -49,7 +49,7 @@ The genesis file is json structured file which describes among the other the ini
 # what is EVM?
 EVM stands for ethereum virtual machine. EVM is the runtime environment for smart contracts in Ethereum. It is not only sandboxed but actually completely isolated, which means that code running inside the EVM has no access to network, filesystem or other processes. Smart contracts even have limited access to other smart contracts.
 
-# difference between geth/parity?
+# Difference between geth and parity?
 
 # what are dApps?
 A decentralized applications called dApps. dApps is a computer application that runs on a distributed computing system. DApps have been mostly popularized by distributed ledger technologies (DLT), namely the Ethereum Blockchain, where DApps are often referred to as smart contracts. some of them are CryptoKitties, gitcoin.co,..
