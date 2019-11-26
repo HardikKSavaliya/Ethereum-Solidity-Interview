@@ -48,10 +48,18 @@ The genesis file is json structured file which describes among the other the ini
 
 # GHOST protocol?
 
+# Account State in ethereum?
+* nonce: If the account is an externally owned account, this number represents the number of transactions sent from the account’s address. If the account is a contract account, the nonce is the number of contracts created by the account.
+* balance: The number of Wei owned by this address. There are 1e+18 Wei per Ether.
+* storageRoot: A hash of the root node of a Merkle Patricia tree. This tree encodes the hash of the storage contents of this account, and is empty by default.
+* codeHash: The hash of the EVM code of this account. For contract accounts, this is the code that gets hashed and stored as the codeHash. For externally owned accounts, the codeHash field is the hash of the empty string.
+
 # what is EVM?
 EVM stands for ethereum virtual machine. EVM is the runtime environment for smart contracts in Ethereum. It is not only sandboxed but actually completely isolated, which means that code running inside the EVM has no access to network, filesystem or other processes. Smart contracts even have limited access to other smart contracts.
 
 # Difference between geth and parity?
+
+# Merkle Patricia Tree?
 
 # what are dApps?
 A decentralized applications called dApps. dApps is a computer application that runs on a distributed computing system. DApps have been mostly popularized by distributed ledger technologies (DLT), namely the Ethereum Blockchain, where DApps are often referred to as smart contracts. some of them are CryptoKitties, gitcoin.co,..
