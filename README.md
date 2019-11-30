@@ -238,6 +238,8 @@ below scenario count to read from state
 * Calling any function not marked pure.
 * Using inline assembly that contains certain opcodes.
   
+  
+# Difference betweeen ERC-20 and ERC-721 tokens?
 
 
 
