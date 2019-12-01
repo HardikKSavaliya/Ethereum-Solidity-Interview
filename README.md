@@ -15,7 +15,7 @@ solidity is a language of ethereum. it is same like javascript. also vyper is al
 # Describe Ethereum node?
 Node is copy of chain data. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are Geth and Parity. 
 
-# what is genesis.json?
+# What is genesis.json?
 The genesis file is json structured file which describes among the other the initial settings needed to initialize the blockchain. It is the initial block for ethereum blockchain
 ```
 {
@@ -44,7 +44,7 @@ The genesis file is json structured file which describes among the other the ini
 
 # How can you make ethereum network ASIC resisitance?
 
-# what is mist?
+# What is mist?
 
 # GHOST protocol?
 
