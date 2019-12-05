@@ -7,7 +7,7 @@ Ethereum is an open source, public, blockchain-based distributed computing platf
 Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.
 
 # What is Smart Contract?
-Smart Contract is an small program that runs on ethereum blockchain.
+Smart Contract is an small program that runs on ethereum blockchain. it have all charecterstics of blockchain.
 
 # In which language ethereum is written?
 solidity is a language of ethereum. it is same like javascript. also vyper is also developing for next option for write smart contracts.
