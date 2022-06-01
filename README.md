@@ -241,5 +241,5 @@ below scenario count to read from state
   
 # Difference betweeen ERC-20 and ERC-721 tokens?
 
-
-
+# Default value of boolean unassigned variable?
+it will be false.
