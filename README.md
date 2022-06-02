@@ -243,3 +243,6 @@ below scenario count to read from state
 
 # Default value of boolean unassigned variable?
 it will be false.
+
+# structure can be created inside an contract or function?
+yes, it is allowed.
